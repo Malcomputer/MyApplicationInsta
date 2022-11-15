@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/acc_settings"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/account_settings" />
+    <item
+        android:id="@+id/btn_1"
+        android:icon="@drawable/ic_profile"
+        android:title="button 1" />
+    <item
+        android:id="@+id/btn_2"
+        android:icon="@drawable/ic_profile"
+        android:title="button 2" />
+    <group>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/log_out" />
+    </group>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--GridView-->
+    <com.firechat.myapplicationtest.Utils.WrappingGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilecontent"
+        android:horizontalSpacing="1.5dp"
+        android:numColumns="3"
+        android:verticalSpacing="1.5dp" />
+
+</RelativeLayout>

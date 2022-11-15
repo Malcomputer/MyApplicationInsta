@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryLight">#8eacbb</color>
+    <color name="colorPrimaryDark">#34515e</color>
+    <color name="colorAccent">@color/secondaryDarkColor</color>
+
+    <color name="secondaryColor">#212121</color>
+    <color name="secondaryLightColor">#484848</color>
+    <color name="secondaryDarkColor">#000000</color>
+    <color name="primaryTextColor">#fafafa</color>
+    <color name="secondaryTextColor">#fafafa</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_toolbar">#eeeeee</color>
+    <color name="bottomnav_icons">#757575</color>
+    <color name="black">#080708</color>
+    <color name="red">#ef1a1a</color>
+    <color name="light_grey">#d9dee8</color>
+    <color name="dark_grey">#6C7578</color>
+    <color name="link_blue">#4d94ff</color>
+    <color name="border_grey">#bfbfbf</color>
+    <color name="textbox_grey">#E0E0E0</color>
+    <color name="accent_material_dark_1">#4070ff</color>
+
+    <color name="gray_light">#e8e8e8</color>
+
+    <color name="dialog_divider">@color/gray</color>
+    <color name="dialog_title_text">@color/dark_gray</color>
+    <color name="dialog_message_text">@color/warm_grey</color>
+    <color name="dialog_date_text">@color/warm_grey_two</color>
+    <color name="dialog_unread_text">@color/white</color>
+    <color name="dialog_unread_bubble">@color/dark_mint</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="gray">#ebebeb</color>
+    <color name="dark_gray">#282a2b</color>
+    <color name="warm_grey">#7f7f7f</color>
+    <color name="warm_grey_two">#9c9c9c</color>
+    <color name="dark_mint">#51c05c</color>
+    <color name="gray_transparent">#a6efefef</color>
+</resources>

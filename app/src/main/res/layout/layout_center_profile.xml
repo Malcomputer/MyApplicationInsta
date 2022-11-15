@@ -1,0 +1,186 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/profilecontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:background="@color/white">
+
+        <!--Background Image-->
+        <ImageView
+            android:id="@+id/profilebackground"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:contentDescription="@string/profile_background" />
+
+        <!--User Follow buttons(hidden)-->
+        <Button
+            android:id="@+id/follow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilebackground"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/profileimage"
+            android:background="@color/link_blue"
+            android:text="@string/user_follow"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilebackground"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/profileimage"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/edit_profile"
+            android:visibility="gone" />
+
+        <!--Profile Picture-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="195dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="5dp" />
+
+        <!--Name-->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <!--Bio and numbers-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <!--Bio-->
+            <TextView
+                android:id="@+id/profile_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/profile_bio"
+                android:textAlignment="center"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_bio"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="60">
+
+                <!--Photos-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+
+                    <TextView
+                        android:id="@+id/photo_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/photo_value"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/photo_value"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/photos"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <!--Followers-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+
+                    <TextView
+                        android:id="@+id/followers_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/followers_value"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/followers_value"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/followers"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <!--Following-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+
+                    <TextView
+                        android:id="@+id/following_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/following_value"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/following_value"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/following"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</merge>

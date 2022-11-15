@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">My Applicationtest</string>
+
+    <string name="profile_background">Profile Background</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_bio" />
+    <!--I spend every staff-meeting wondering how they got the table through the door. My boss thinking how to fire me without compensation. We are equally productive. I also love my job.-->
+
+    <string name="photos">Photos</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
+    <string name="photo_value">0</string>
+    <string name="followers_value">0</string>
+    <string name="following_value">0</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="share">Share</string>
+
+    <!-- Firebase messages -->
+    <string name="auth_login">Sign in</string>
+    <string name="auth_failed">Failed to Authenticate</string>
+    <string name="auth_wrongpass">Wrong Email/Password</string>
+    <string name="auth_registrationSuccess">Registration Success</string>
+    <string name="auth_registrationFailed">Registration Failed</string>
+
+    <!-- Firebase database constant fields -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_name">name</string>
+    <string name="dbname_email">email</string>
+    <string name="dbname_bio">bio</string>
+    <string name="dbname_user_id">user_id</string>
+    <string name="dbname_username">username</string>
+    <string name="dbname_profilephoto">photoURL</string>
+    <string name="dbname_profilebackgroundphoto">profilebackimage</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_datefollowed">datefollowed</string>
+    <string name="dbname_iffollowing">iffollowing</string>
+    <string name="follow_key">yes</string>
+
+    <!-- Intent Extras -->
+    <string name="calling_activity">calling_activity</string>
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="intent_user">intent_user</string>
+    <string name="user_stories">user_stories</string>
+    <string name="btn_post">Post</string>
+    <string name="btn_photos">Photos</string>
+    <string name="user_follow">Follow</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="availability">online</string>
+
+
+    <string name="date_header_yesterday">Yesterday</string>
+    <string name="dbname_dialog">dialog</string>
+    <string name="followed_userID">followed_userID</string>
+    <string name="followed_user">followed_user</string>
+
+
+</resources>
