@@ -16,7 +16,7 @@
 
 package com.firechat.myapplicationtest.Utils.Libraries.commons.models;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 public interface MessageContentType extends IMessage {
 
