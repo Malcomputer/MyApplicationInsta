@@ -12,7 +12,7 @@
         android:layout_weight="80"
         android:scrollbars="none">
 
-        <com.firechat.myapplicationtest.Utils.WrappingListView
+        <com.firechat.myapplicationinsta.Utils.WrappingListView
             android:id="@+id/recycler_view_all_user_listing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

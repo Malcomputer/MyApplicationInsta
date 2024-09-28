@@ -5,7 +5,7 @@
     android:background="@android:color/holo_red_light"
     android:orientation="vertical">
 
-    <com.firechat.myapplicationtest.Utils.WrappingListView
+    <com.firechat.myapplicationinsta.Utils.WrappingListView
         android:id="@+id/chatlist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
