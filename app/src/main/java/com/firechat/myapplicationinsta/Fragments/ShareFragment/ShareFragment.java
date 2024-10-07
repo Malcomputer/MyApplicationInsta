@@ -1,17 +1,18 @@
 package com.firechat.myapplicationinsta.Fragments.ShareFragment;
 
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import com.google.android.material.tabs.TabLayout;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
 import com.firechat.myapplicationinsta.Adapters.FragmentAdapter;
 import com.firechat.myapplicationinsta.MainActivity;
 import com.firechat.myapplicationinsta.R;
+import com.google.android.material.tabs.TabLayout;
 
 public class ShareFragment extends Fragment {
 

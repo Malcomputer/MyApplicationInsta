@@ -1,6 +1,7 @@
 package com.firechat.myapplicationinsta.Adapters;
 
 import android.content.Context;
+
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

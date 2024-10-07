@@ -3,6 +3,8 @@ package com.firechat.myapplicationinsta.Fragments.ChatFragment;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -85,6 +87,7 @@ public class ChatFragment extends Fragment {
 				useID = mChatList.get(position).getUser_id();
 				photoID = mChatList.get(position).getPhotoURL();
 				Bundle bund = new Bundle();
+				Log.d("TAG", "onItemClick: haha tag: " + useID + " | " + userID);
 				bund.putString("UID1", useID);
 				Fragment secusefrag = new MessageListFragment();
 				secusefrag.setArguments(bund);

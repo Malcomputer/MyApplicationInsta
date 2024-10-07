@@ -18,11 +18,12 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
+import android.util.AttributeSet;
+
 import androidx.annotation.DimenRes;
 import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
 import androidx.appcompat.widget.AppCompatImageView;
-import android.util.AttributeSet;
+import androidx.core.content.ContextCompat;
 
 /**
  * Thanks to Joonho Kim (https://github.com/pungrue26) for his lightweight SelectableRoundedImageView,

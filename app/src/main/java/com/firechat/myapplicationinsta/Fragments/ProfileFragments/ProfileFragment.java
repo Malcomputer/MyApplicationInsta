@@ -4,11 +4,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.fragment.app.Fragment;
-import androidx.appcompat.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,10 +16,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.Fragment;
+
 import com.firechat.myapplicationinsta.Login.LoginActivity;
 import com.firechat.myapplicationinsta.MainActivity;
 import com.firechat.myapplicationinsta.R;
 import com.firechat.myapplicationinsta.Utils.UniversalImageLoader;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -170,6 +171,7 @@ public class ProfileFragment extends Fragment {
 				.addValueEventListener(new ValueEventListener() {
 					@Override
 					public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+						// TODO: 10/5/2024 decide on a name lol
 						String name = (String) dataSnapshot.getValue();
 						String name2 = mUser.getDisplayName();
 						String email = mUser.getEmail();

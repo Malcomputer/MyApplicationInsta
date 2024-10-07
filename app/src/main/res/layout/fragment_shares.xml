@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/holo_red_light">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/share_toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/share_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
 
-            <Spinner
-                android:id="@+id/spinnerDirectoryf"
-                android:layout_width="wrap_content"
-                android:layout_height="?attr/actionBarSize" />
-        </android.support.v7.widget.Toolbar>
-    </android.support.design.widget.AppBarLayout>
+			<Spinner
+				android:id="@+id/spinnerDirectoryf"
+				android:layout_width="wrap_content"
+				android:layout_height="?attr/actionBarSize" />
+		</androidx.appcompat.widget.Toolbar>
+	</com.google.android.material.appbar.AppBarLayout>
 
-    <!--Action Bar-->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary">
+	<!--Action Bar-->
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary">
 
-        <Spinner
-            android:id="@+id/spinnerDirectory"
-            android:layout_width="wrap_content"
-            android:layout_height="?attr/actionBarSize" />
-    </RelativeLayout>
+		<Spinner
+			android:id="@+id/spinnerDirectory"
+			android:layout_width="wrap_content"
+			android:layout_height="?attr/actionBarSize" />
+	</RelativeLayout>
 
 
 </RelativeLayout>

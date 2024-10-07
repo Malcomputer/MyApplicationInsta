@@ -31,6 +31,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Objects;
 
 public class SearchFragment extends Fragment {
 	private static final String TAG = "SearchFragment";
@@ -136,7 +137,7 @@ public class SearchFragment extends Fragment {
 
 	private void updateUsersList() {
 
-		mAdapter = new UserListAdapter(getContext(), R.layout.layout_user_listitem, mUserList);
+		mAdapter = new UserListAdapter(Objects.requireNonNull(getContext()), R.layout.layout_user_listitem, mUserList);
 
 		mListView.setAdapter(mAdapter);
 
